@@ -3,9 +3,9 @@ public class Unique {
         int[] arr={2,3,3,4,2,6,4};
         System.out.println(ans(arr));
     }
-    static int ans(int[] arr){
+    static int ans(int[] nums){
         int unique=0;
-        for (int n :arr){
+        for (int n :nums){
             unique^=n;
         }
         return unique;
